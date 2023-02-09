@@ -3,7 +3,6 @@ import styles from './styles.css'
 import Header from './header.js'
 import Generator from './generator.js'
 import memesData from './memesData.js'
-import MemeImg from './memeImg.js'
 
 function App() {
 

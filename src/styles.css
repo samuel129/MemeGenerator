@@ -30,6 +30,7 @@ body {
 
 .generator {
 	width: 550px;
+	height: 900px;
 }
 
 .generator-input-case input {
@@ -57,4 +58,43 @@ body {
 	color: white;
 	font-family: Karla;
 	background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+	margin-bottom: 20px;
 }
+
+.generator-img {
+	max-width: 550px;
+	max-height: 550px;
+}
+
+.memeImg-case {
+	width: 550px;
+	height: 550px;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

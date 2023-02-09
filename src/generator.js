@@ -2,7 +2,6 @@ import React from "react"
 import styles from "./styles.css"
 import spoderman from "./spoderman.png"
 import memesData from "./memesData.js"
-import MemeImg from "./memeImg.js"
 
 export default function Generator() {
 
@@ -37,8 +36,8 @@ export default function Generator() {
 					Get a new meme image 🖼️
 				</button>
 			</div>
-		<MemeImg
-			url={memeImage}
-		/>
+			<div className="memeImg-case">
+				<img className="generator-img" src={memeImage}></img>
+			</div>
 		</div>
 )}
